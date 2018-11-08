@@ -9,7 +9,7 @@ In this lab, we shall look at the law of total probability. In probability theor
 You will be able to:
 * Understand and explain the concept of event space and partitioning 
 * State the law of total probabilities based on a partitioned event space
-* Understand and able to perform partitioning based on known and unknown probabilities to solve a problem.  
+* Understand and able to perform partitioning based on known and unknown probabilities to solve a problem
 
 ## Exercise 1
 Suppose we have two hats: one has 4 red balls and 6 green balls, the other has 6 red and 4 green. We toss a fair coin, if heads, pick a random ball from the first hat, if tails from the second. 
