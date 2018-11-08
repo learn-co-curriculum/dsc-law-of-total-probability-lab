@@ -18,11 +18,6 @@ What is the probability of getting a red ball?
 
 
 ```python
-# Your solution
-```
-
-
-```python
 ## P(Red) = P(Red|H) · P(H) + P(Red|T) · P(T)
 
 p_red = (4/10 * 1/2) + (6/10 * 1/2)
@@ -41,11 +36,6 @@ A soccer team wins 60% of its games when it scores the first goal, and 10% of it
 scores first. 
 
 If the team scores the first goal about 30% of the time, what fraction of the games does it win?
-
-
-```python
-# Your solution
-```
 
 
 ```python
@@ -85,11 +75,6 @@ In Europe, except for regular gas, cars regularly run on Diesel as well. At a ga
 - Given that the next customer fills their tank completely, compute the probability that they bought Diesel. 
 
 Hint: Consult the theorems for conditional probability, check for dependence or independence of events
-
-
-```python
-# Your solution
-```
 
 ### Solution
 
@@ -164,11 +149,6 @@ United airlines operates flights from JFK to Amsterdam, to Brussels and to Copen
 
 Hint: Consult the theorems for conditional probability, check for dependence or independence of events
 
-
-```python
-# Your solution
-```
-
 ### Solution
 
 The three events are **independent!**  A, B and C is the probability of Amsterdam, Brussels and Copenhagen flights being overbooked.
@@ -242,11 +222,6 @@ You choose one of the bags at random and then pick a marble from the chosen bag,
 
 What is the probability that the chosen marble is red?
 
-
-
-```python
-# Your solution
-```
 
 
 ```python
