@@ -1,18 +1,18 @@
 
-# Partitioning and Law of Total Probabilities - Lab
+# Partitioning and Law of Total Probability - Lab
 
 ## Introduction 
-In this lab, we shall look at the law of total probability. In probability theory, the law (or formula) of total probability is a fundamental rule relating **marginal probabilities** to conditional probabilities. It expresses the total probability of an outcome which can be realized via several distinct events, hence the name.
+In this lab, you'll practice your knowledge of the law of total probability. In probability theory, the law (or formula) of total probability is a fundamental rule relating **marginal probabilities** to **conditional probabilities**.
 
 ## Objectives
 
 You will be able to:
 * Understand and explain the concept of event space and partitioning 
 * State the law of total probabilities based on a partitioned event space
-* Understand and able to perform partitioning based on known and unknown probabilities to solve a problem.  
+* Understand and be able to perform partitioning based on known and unknown probabilities to solve a problem
 
 ## Exercise 1
-Suppose we have two hats: one has 4 red balls and 6 green balls, the other has 6 red and 4 green. We toss a fair coin, if heads, pick a random ball from the first hat, if tails from the second. 
+Imagine you have two hats: one has 4 red balls and 6 green balls, the other has 6 red and 4 green. We toss a fair coin, if heads, you will pick a random ball from the first hat, if tails you will pick one from the second hat. 
 
 What is the probability of getting a red ball?
 
@@ -141,7 +141,7 @@ p_diesel_given_full # correct answer: 0.263736
 
 ## Exercise 4
 
-United airlines operates flights from JFK to Amsterdam, to Brussels and to Copenhagen. As you might know, flights are overbooked fairly often. Let's denote the probability of the flight to Amsterdam being overbooked equal to 40%, the probability of the flight to Brussels being overbooked equal to 25%, and the probability of the flight to Copenhagen to be overbooked being equal to 35%. 
+United airlines operates flights from JFK to Amsterdam, to Brussels and to Copenhagen. As you may know, flights are overbooked fairly often. Let's denote the probability of the flight to Amsterdam being overbooked equal to 40%, the probability of the flight to Brussels being overbooked equal to 25%, and the probability of the flight to Copenhagen to be overbooked being equal to 35%. 
 
 - Compute the probability that all the flights are overbooked.
 - Compute the probability of having at least one flight which is not overbooked.
@@ -253,4 +253,4 @@ P_R
 
 ## Summary 
 
-In this lab we practiced around conditional probability and its theorem with some simple problems. The key takeaway from this lab is to to be able to identify random events as dependent or independent and calculating the probability of their occurrence using appropriate methods. Next we'll start focusing on the Bayes theorem, building on the knowledge we have thus far. 
+In this lab you practiced conditional probability and its theorem with some simple problems. The key takeaway from this lab is to to be able to identify random events as dependent or independent and calculating the probability of their occurrence using appropriate methods. Next, you'll take this knowledge a step further and run simulations with conditional and total probability. 
