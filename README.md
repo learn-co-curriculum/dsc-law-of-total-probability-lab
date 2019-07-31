@@ -21,6 +21,22 @@ What is the probability of getting a red ball?
 # Your solution
 ```
 
+
+```python
+# __SOLUTION__ 
+## P(Red) = P(Red|H) · P(H) + P(Red|T) · P(T)
+
+p_red = (4/10 * 1/2) + (6/10 * 1/2)
+p_red
+```
+
+
+
+
+    0.5
+
+
+
 ## Exercise 2
 A soccer team wins 60% of its games when it scores the first goal, and 10% of its games when the opposing team 
 scores first. 
@@ -31,6 +47,26 @@ If the team scores the first goal about 30% of the time, what fraction of the ga
 ```python
 # Your solution
 ```
+
+
+```python
+# __SOLUTION__ 
+# Let W be the event that the team wins, 
+# SF be the event that it scores first. 
+# Then according to law of total probs.
+
+# P(W) = P(W|SF) · P(SF) + P(W|SFc) 
+
+p_w = (6/10 * 3/10) + (1/10 * 7/10)
+p_w
+```
+
+
+
+
+    0.25
+
+
 
 ## Exercise 3
 
@@ -72,6 +108,20 @@ Hint: Consult the theorems for conditional probability, check for dependence or 
 # Your solution
 ```
 
+
+```python
+# __SOLUTION__ 
+full_super_95 = 0.35*0.6
+full_super_95 # correct answer: 0.21
+```
+
+
+
+
+    0.21
+
+
+
 ## Exercise 5
 You have three bags that each contain 100 marbles:
 
@@ -92,3 +142,114 @@ What is the probability that the chosen marble is red?
 ## Summary 
 
 In this lab you practiced conditional probability and its theorem with some simple problems. The key takeaway from this lab is to to be able to identify random events as dependent or independent and calculating the probability of their occurrence using appropriate methods. Next, you'll take this knowledge a step further and run simulations with conditional and total probability. 
+
+
+```python
+# __SOLUTION__ 
+full_diesel = 0.4*0.3
+full_super_98 = 0.25*0.5
+
+p_full = full_super_95 + full_diesel + full_super_98
+p_full # correct answer: 0.455
+```
+
+
+
+
+    0.45499999999999996
+
+
+
+
+```python
+# __SOLUTION__ 
+p_diesel_given_full = (0.4*0.3)/p_full
+p_diesel_given_full # correct answer: 0.263736
+```
+
+
+
+
+    0.26373626373626374
+
+
+
+
+```python
+# __SOLUTION__ 
+p_all_overbooked = 0.25*0.40*0.35
+p_all_overbooked # correct answer: 0.035
+```
+
+
+
+
+    0.034999999999999996
+
+
+
+
+```python
+# __SOLUTION__ 
+at_least_one_not = 1-p_all_overbooked
+at_least_one_not  # correct answer: 0.965
+```
+
+
+
+
+    0.965
+
+
+
+
+```python
+# __SOLUTION__ 
+# p_just_one = p(amsterdam_just one) + p(brussels_just_one) + p(cop_just_one)
+p_amsterdam_just_one = 0.4*0.75*0.65 # (1-p for other flights)
+p_brussels_just_one = 0.6*0.25*0.65
+p_copenhagen_just_one = 0.6*0.75*0.35
+
+# When two events, A and B, are mutually exclusive, there is no overlap between these events. 
+# The probability that A and B is the sum of the probability of each event
+p_just_one = p_amsterdam_just_one + p_brussels_just_one + p_copenhagen_just_one
+
+
+p_just_one # 0.45
+```
+
+
+
+
+    0.45
+
+
+
+
+```python
+# __SOLUTION__ 
+# Let R be the event that the chosen marble is red. Let Bi be the event that you choose Bag i. 
+# We already know that
+
+P_R_given_B1=0.75
+P_R_given_B2=0.60
+P_R_given_B3=0.45
+
+#We choose our partitions as B1,B2,B3. 
+#Note that this is a valid partition because, firstly, the Bi's are disjoint (only one of them can happen), 
+# and secondly, because their union is the entire sample space as one the bags will be chosen for sure.
+# i.e., P(B1∪B2∪B3)=1. Using the law of total probability, we can write
+
+# P(R)=P(R|B1)P(B1)+P(R|B2)P(B2)+P(R|B3)P(B3)
+
+P_R=(0.75*1/3) +(0.60* 1/3)+(0.45* 1/3)
+P_R
+
+```
+
+
+
+
+    0.6
+
+
