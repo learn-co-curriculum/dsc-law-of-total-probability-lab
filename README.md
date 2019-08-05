@@ -76,17 +76,6 @@ In Europe, except for regular gas, cars regularly run on Diesel as well. At a ga
 
 Hint: Consult the theorems for conditional probability, check for dependence or independence of events
 
-### Solution
-
-$P(G1) = 0.4$, $P(G2)=0.35$, $P(G3) = 0.25$.
-
-$P(F\mid G1) = 0.30$ , $P(F\mid G2) = 0.60$ , $P(F\mid G3) = 0.50$.
-
-
-**Probability that the next customer completely fills their tank and buys Super 95.**
-
-$P(G2\cap F) = P(G2)P(F\mid G2)$
-
 
 ```python
 full_super_95 = 0.35*0.6
@@ -99,12 +88,6 @@ full_super_95 # correct answer: 0.21
     0.21
 
 
-
-**Probability that the next customer completely fills their tank.**
-
-In order to get to this, you basically need to sum over all the gas types.
-
-$P(F) = P(G1\cap F)+P(G2\cap F)+P(G3\cap F)$
 
 
 ```python
@@ -121,10 +104,6 @@ p_full # correct answer: 0.455
     0.45499999999999996
 
 
-
-**Given that the next customer fills their tank completely, compute the probability that they bought Diesel.**
-
-$P(G1 \mid F) = \dfrac{P(G1 \cap F)}{P(F)}$
 
 
 ```python
@@ -149,16 +128,6 @@ United airlines operates flights from JFK to Amsterdam, to Brussels and to Copen
 
 Hint: Consult the theorems for conditional probability, check for dependence or independence of events
 
-### Solution
-
-The three events are **independent!**  A, B and C is the probability of Amsterdam, Brussels and Copenhagen flights being overbooked.
-
-
-
-**Compute the probability that all the flights are overbooked.**
-
-$P(A\cap B \cap C) =  P(A)P(B)P(C)$
-
 
 ```python
 p_all_overbooked = 0.25*0.40*0.35
@@ -172,8 +141,6 @@ p_all_overbooked # correct answer: 0.035
 
 
 
-**Compute the probability of having at least one flight which is not overbooked.**
-
 
 ```python
 at_least_one_not = 1-p_all_overbooked
@@ -186,8 +153,6 @@ at_least_one_not  # correct answer: 0.965
     0.965
 
 
-
-#### Compute the probability that exactly one flight is overbooked.
 
 
 ```python
