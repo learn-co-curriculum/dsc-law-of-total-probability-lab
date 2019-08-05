@@ -18,7 +18,7 @@ What is the probability of getting a red ball?
 
 
 ```python
-# Your solution
+# Your code here
 ```
 
 ## Exercise 2
@@ -29,7 +29,7 @@ If the team scores the first goal about 30% of the time, what fraction of the ga
 
 
 ```python
-# Your solution
+# Your code here
 ```
 
 ## Exercise 3
@@ -54,7 +54,7 @@ Hint: Consult the theorems for conditional probability, check for dependence or 
 
 
 ```python
-# Your solution
+# Your code here
 ```
 
 ## Exercise 4
@@ -69,7 +69,7 @@ Hint: Consult the theorems for conditional probability, check for dependence or 
 
 
 ```python
-# Your solution
+# Your code here
 ```
 
 ## Exercise 5
@@ -86,7 +86,7 @@ What is the probability that the chosen marble is red?
 
 
 ```python
-# Your solution
+# Your code here
 ```
 
 ## Summary 
