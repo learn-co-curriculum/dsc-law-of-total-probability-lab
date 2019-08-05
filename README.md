@@ -18,7 +18,7 @@ What is the probability of getting a red ball?
 
 
 ```python
-# Your solution
+# Your code here
 ```
 
 
@@ -45,7 +45,7 @@ If the team scores the first goal about 30% of the time, what fraction of the ga
 
 
 ```python
-# Your solution
+# Your code here
 ```
 
 
@@ -90,22 +90,7 @@ Hint: Consult the theorems for conditional probability, check for dependence or 
 
 
 ```python
-# Your solution
-```
-
-## Exercise 4
-
-United airlines operates flights from JFK to Amsterdam, to Brussels and to Copenhagen. As you may know, flights are overbooked fairly often. Let's denote the probability of the flight to Amsterdam being overbooked equal to 40%, the probability of the flight to Brussels being overbooked equal to 25%, and the probability of the flight to Copenhagen to be overbooked being equal to 35%. 
-
-- Compute the probability that all the flights are overbooked.
-- Compute the probability of having at least one flight which is not overbooked.
-- Compute the probability that exactly one flight is overbooked.
-
-Hint: Consult the theorems for conditional probability, check for dependence or independence of events
-
-
-```python
-# Your solution
+# Your code here
 ```
 
 
@@ -121,27 +106,6 @@ full_super_95 # correct answer: 0.21
     0.21
 
 
-
-## Exercise 5
-You have three bags that each contain 100 marbles:
-
-- Bag 1 has 75 red and 25 blue marbles;
-- Bag 2 has 60 red and 40 blue marbles;
-- Bag 3 has 45 red and 55 blue marbles.
-
-You choose one of the bags at random and then pick a marble from the chosen bag, also at random. 
-
-What is the probability that the chosen marble is red?
-
-
-
-```python
-# Your solution
-```
-
-## Summary 
-
-In this lab you practiced conditional probability and its theorem with some simple problems. The key takeaway from this lab is to to be able to identify random events as dependent or independent and calculating the probability of their occurrence using appropriate methods. Next, you'll take this knowledge a step further and run simulations with conditional and total probability. 
 
 
 ```python
@@ -173,6 +137,21 @@ p_diesel_given_full # correct answer: 0.263736
     0.26373626373626374
 
 
+
+## Exercise 4
+
+United airlines operates flights from JFK to Amsterdam, to Brussels and to Copenhagen. As you may know, flights are overbooked fairly often. Let's denote the probability of the flight to Amsterdam being overbooked equal to 40%, the probability of the flight to Brussels being overbooked equal to 25%, and the probability of the flight to Copenhagen to be overbooked being equal to 35%. 
+
+- Compute the probability that all the flights are overbooked.
+- Compute the probability of having at least one flight which is not overbooked.
+- Compute the probability that exactly one flight is overbooked.
+
+Hint: Consult the theorems for conditional probability, check for dependence or independence of events
+
+
+```python
+# Your code here
+```
 
 
 ```python
@@ -225,6 +204,23 @@ p_just_one # 0.45
 
 
 
+## Exercise 5
+You have three bags that each contain 100 marbles:
+
+- Bag 1 has 75 red and 25 blue marbles;
+- Bag 2 has 60 red and 40 blue marbles;
+- Bag 3 has 45 red and 55 blue marbles.
+
+You choose one of the bags at random and then pick a marble from the chosen bag, also at random. 
+
+What is the probability that the chosen marble is red?
+
+
+
+```python
+# Your code here
+```
+
 
 ```python
 # __SOLUTION__ 
@@ -253,3 +249,7 @@ P_R
     0.6
 
 
+
+## Summary 
+
+In this lab you practiced conditional probability and its theorem with some simple problems. The key takeaway from this lab is to to be able to identify random events as dependent or independent and calculating the probability of their occurrence using appropriate methods. Next, you'll take this knowledge a step further and run simulations with conditional and total probability. 
