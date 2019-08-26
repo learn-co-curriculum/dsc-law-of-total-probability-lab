@@ -59,13 +59,11 @@ Hint: Consult the theorems for conditional probability, check for dependence or 
 
 ## Exercise 4
 
-United airlines operates flights from JFK to Amsterdam, to Brussels and to Copenhagen. As you may know, flights are overbooked fairly often. Let's denote the probability of the flight to Amsterdam being overbooked equal to 40%, the probability of the flight to Brussels being overbooked equal to 25%, and the probability of the flight to Copenhagen to be overbooked being equal to 35%. 
+United airlines operates flights from JFK to Amsterdam, to Brussels and to Copenhagen. As you may know, flights are overbooked fairly often. Let's denote the probability of the flight to Amsterdam being overbooked equal to 40%, the probability of the flight to Brussels being overbooked equal to 25%, and the probability of the flight to Copenhagen to be overbooked being equal to 35%. You can assume that these events of overbooking are independent events.
 
 - Compute the probability that all the flights are overbooked.
 - Compute the probability of having at least one flight which is not overbooked.
 - Compute the probability that exactly one flight is overbooked.
-
-Hint: Consult the theorems for conditional probability, check for dependence or independence of events
 
 
 ```python
