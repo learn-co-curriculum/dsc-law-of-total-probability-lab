@@ -22,7 +22,7 @@ What is the probability of getting a red ball?
 ```
 
 ## Exercise 2
-A soccer team wins 60% of its games when it scores the first goal, and 10% of its games when the opposing team 
+In games where at least one goal is made, a soccer team wins 60% of its games when it scores the first goal, and 10% of its games when the opposing team 
 scores first. 
 
 If the team scores the first goal about 30% of the time, what fraction of the games does it win?
