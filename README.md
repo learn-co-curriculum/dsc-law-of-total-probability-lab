@@ -32,7 +32,7 @@ p_red
 
 
 ## Exercise 2
-A soccer team wins 60% of its games when it scores the first goal, and 10% of its games when the opposing team 
+In games where at least one goal is made, a soccer team wins 60% of its games when it scores the first goal, and 10% of its games when the opposing team 
 scores first. 
 
 If the team scores the first goal about 30% of the time, what fraction of the games does it win?
@@ -43,7 +43,7 @@ If the team scores the first goal about 30% of the time, what fraction of the ga
 # SF be the event that it scores first. 
 # Then according to law of total probs.
 
-# P(W) = P(W|SF) · P(SF) + P(W|SFc) 
+# P(W) = P(W|SF) · P(SF) + P(W|SFc) · P(SFc)
 
 p_w = (6/10 * 3/10) + (1/10 * 7/10)
 p_w
