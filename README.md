@@ -34,21 +34,21 @@ If the team scores the first goal about 30% of the time, what fraction of the ga
 
 ## Exercise 3
 
-In Europe, except for regular gas, cars regularly run on Diesel as well. At a gas station in Paris; 
+In Europe, except for regular gas, cars often run on diesel as well. At a gas station in Paris; 
 
 
-* 40% of the customers fills up with Diesel (event G1) 
+* 40% of the customers fill up with diesel (event G1) 
 * 35% with gas "Super 95" (event G2)
 * 25% with gas "Super 98" (event G3). 
 
 
-* 30% of the customers who buy Diesel fill their tank completely (event F). 
-* For "Super 95" and "Super 98", these numbers are  60% and 50% respectively.
+* 30% of the customers who buy diesel fill their tank completely (event F). 
+* For "Super 95" and "Super 98", these numbers are  60% and 50%, respectively.
 
 
 - Compute the probability that the next customer completely fills their tank and buys Super 95. 
 - Compute the probability that the next customer completely fills their tank
-- Given that the next customer fills their tank completely, compute the probability that they bought Diesel. 
+- Given that the next customer fills their tank completely, compute the probability that they bought diesel. 
 
 Hint: Consult the theorems for conditional probability, check for dependence or independence of events
 
@@ -59,7 +59,7 @@ Hint: Consult the theorems for conditional probability, check for dependence or 
 
 ## Exercise 4
 
-United airlines operates flights from JFK to Amsterdam, to Brussels and to Copenhagen. As you may know, flights are overbooked fairly often. Let's denote the probability of the flight to Amsterdam being overbooked equal to 40%, the probability of the flight to Brussels being overbooked equal to 25%, and the probability of the flight to Copenhagen to be overbooked being equal to 35%. You can assume that these events of overbooking are independent events.
+United Airlines operates flights from JFK to Amsterdam, to Brussels, and to Copenhagen. As you may know, flights are overbooked fairly often. Let's denote the probability of the flight to Amsterdam being overbooked equal to 40%, the probability of the flight to Brussels being overbooked equal to 25%, and the probability of the flight to Copenhagen being overbooked equal to 35%. You can assume that these events of overbooking are independent events.
 
 - Compute the probability that all the flights are overbooked.
 - Compute the probability of having at least one flight which is not overbooked.
@@ -89,4 +89,4 @@ What is the probability that the chosen marble is red?
 
 ## Summary 
 
-In this lab you practiced conditional probability and its theorem with some simple problems. The key takeaway from this lab is to to be able to identify random events as dependent or independent and calculating the probability of their occurrence using appropriate methods. Next, you'll take this knowledge a step further and run simulations with conditional and total probability. 
+In this lab, you practiced conditional probability and its theorem with some simple problems. The key takeaway from this lab is to be able to identify random events as dependent or independent and calculating the probability of their occurrence using appropriate methods. Next, you'll take this knowledge a step further and run simulations with conditional and total probability. 
